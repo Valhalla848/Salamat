@@ -1,0 +1,26 @@
+#navbar {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(46, 93, 175);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.navbar-logo {
+  width: 70px;
+}
+.navbar-text {
+  width: 12%;
+  padding: 5px 30px;
+  background-color: aqua;
+}
+.navbar-text-round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: azure;
+}
